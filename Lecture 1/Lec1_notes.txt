@@ -1,0 +1,45 @@
+
+Java Features
+1.simple
+2.paltform independent
+java code(source code) ki file ko jab compile karnege to .class file generate hoti hai
+ye .class file ko hi byte code kehte hai
+javac ye command hai to compile the .java file and provide us with .class file
+abhi tak code koi platform independent nahi hai 
+but agar mere paas .class file hai to jvm kya karegi usko run karegi and this .class file is 
+platform independent
+jaisi jvm chal jata hai waise mujhe output mil jata hai
+run and execute is same thing 
+java code(src code) ko .class mein convert using javac (compile)  -> compilation
+and when byte code aa gaya then when we use jvm to run using java command -> execution
+3.Java is robust(v.powerful)
+like automatic memory management wo jvm khudbakhud kar leta hai
+like exception handling(self healing capacity)
+4.oops
+5.secure
+
+in C language c->objCode->o/p
+but this objCode can be attacked 
+.class file cannot be attacked by anyone therefore it is safe
+i installed jdk in that i got 2 folder one of jdk and other of jre
+### interview question
+difference between jdk and jre
+jdk is set of tools to develop a program(like syntax)
+jre gives us platform to execute program
+jvm hota hai wo hota hai jre ke andar
+os uses system variables 
+ide gives auto suggestion error pehle se dikha deta hai and syntax bhi pata chalti hai
+while compiling write javac fileName.java
+har ek file mein sirf ek class hi public hoti hai
+entry point jaha se code chalega wo main method hota hai
+.class file jvm ko dena hai to ham java className
+
+jab hame compile kar liya baadme while executing we have to write className not necessarily
+fileName bcoz once .class file is created then it has nothing to do with original .java file
+in java you have to write everything inside a class 
+there are three cases
+case 1 -> you have same file name and class name then no issue
+case 2 -> you have different filename and class name but you have not mentioned public then you have to execute using className
+if you execute using file name then it will give you an error
+case 3 -> you have different filename and class name but you have mentioned public then it will give you error bcoz if you meintion public then your 
+class name have to be same as fileName
