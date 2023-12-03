@@ -29,6 +29,6 @@ library is collection of apis,classes,interface
 interface is simlpe component in java
 native vs non-native
 there are certain functionality that we want from other language and not written in java to wo java ke liye native code hogaya
-
+variables are used to store data
 
 
