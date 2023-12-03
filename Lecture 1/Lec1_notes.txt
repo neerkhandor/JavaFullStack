@@ -43,3 +43,4 @@ case 2 -> you have different filename and class name but you have not mentioned 
 if you execute using file name then it will give you an error
 case 3 -> you have different filename and class name but you have mentioned public then it will give you error bcoz if you meintion public then your 
 class name have to be same as fileName
+Byte code hi .class file hai

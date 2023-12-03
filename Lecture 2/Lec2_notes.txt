@@ -1,0 +1,34 @@
+ek form se dusre form mein convert hone ko hi mai compilarion bolta hu
+mein isko translator bhi bol sakta hu
+translator is used to convert from one format to another format
+Three types of translator in Java
+1.Interpreter -> if suppose line no 10 and line no 20 has error
+interpreter line by line format change karta hai 
+line by line wo change .class file mein convert karta hai
+(line by line top to bottom code check karega and convert into .class file)
+process ruk jaayega and aage run hi nahi karega
+2.Compiler -> At one jo kar raha hai wo hota hai Compiler
+compiler saara code compile karta hai and baadme error dikhata hai 
+3.Assembler -> there are microprocessors udhar hoga Assembler
+ek format se dusre format mein convert karne ka kaam karta hai
+java mein interpreter and compiler dono use hota hai
+javac ko execute jvm karta hai
+jvm kaise chalta hai wo jaana is necessary
+JVM Architecture
+1.Class Loader sub system -> .class file ko load karta hai into jvm this is known as Loader
+2.method area -> class code will be stored here
+3.heap area -> object will be stored in heap area
+4.java stack -> jo method execute hoti hai uski info will be stored here
+5.pc register -> it will maintain next line info to execute
+6.native stack -> it will maintain non-java code execution info
+7.execution(interpreter) -> it is responsible to execute the program and provide o/p
+8.native interface -> it will load native lib into jvm
+9.native library -> it will 
+(native matlab ye java ki chize nahi hai kisi aur language mein likhi hai)
+library is collection of apis,classes,interface
+interface is simlpe component in java
+native vs non-native
+there are certain functionality that we want from other language and not written in java to wo java ke liye native code hogaya
+
+
+
