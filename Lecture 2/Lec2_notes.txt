@@ -30,5 +30,27 @@ interface is simlpe component in java
 native vs non-native
 there are certain functionality that we want from other language and not written in java to wo java ke liye native code hogaya
 variables are used to store data
+jis type ka data store karna hai uss type mein data store karenge
+there are two types of data in java
+1.primitive -> boolean,numeric 
+2.non-primitive -> String,Array,List,Set
+jin jin ka object bana sakta hai wo non primitive hai
+Type of comment
+1.single line comment
+2.multi line comment 
+3.Documentation
+
+Java Dev Test 1
+1.explain client server Architecture ?
+2.what is database and why we need it ?
+3.
+computer se interact karnekeliye we need programming language
 
 
+Identifiers
+1.name of the Identifiers should not start with number
+2.name of the Identifiers should not have any special character except $._
+3.name of Identifiers should not be some reserved keyword
+4.have some meaningful name for the variables
+5.follow camelCase system for naming
+6.car and Car are different variables but it is not preferred it affects the code readability
