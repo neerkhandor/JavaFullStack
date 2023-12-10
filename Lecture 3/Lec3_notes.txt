@@ -1,0 +1,9 @@
+primitive data types
+1.char
+2.boolean
+3.byte
+4.short
+5.int
+6.long
+7.float
+8.double
