@@ -7,3 +7,8 @@ primitive data types
 6.long
 7.float
 8.double
+
+instance of -> reference type ko samjhayega
+Code line to line top to bottom chalta hai but hame koi specific chiz exec karni hai to ham if else ka use karte hai
+ 
+ 
