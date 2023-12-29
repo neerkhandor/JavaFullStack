@@ -1,0 +1,22 @@
+green staging area mein add hogayi
+
+
+situation ke hisab se mein alag tarike se behave karta hu ->polymorphism
+extends keyword use karte hi inheritance
+
+string is thread safe because it is immutable will understand it better further 
+string buffer
+-------------
+it is mutable(koi change karega to naya object nahi banega)
+we will use it when we want to do lot of manipulation
+string buffer class is thread safe multiple threads cant access it simultaneoulsy
+in development we generally use string only because we have to work on multi threaded things
+difference between string and string buffer
+string buffer ko hold nahi karta changes ko but string mein hame alag variable mein hold karna padta hai
+stringBuffer mein string constant pool jaisa kuch nahi hai kyuki wo ham constructor through call karte hai
+na ki koi string literal ke through
+
+string builder
+--------------
+when we want mutable string without thread safety then string builder will be used
+stringBuffer and string builder ka ham new keyword se object banate hai 
